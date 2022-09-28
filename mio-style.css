@@ -49,3 +49,22 @@
 .ex-4-square:hover{
   opacity: 0;
 }
+
+
+.ex-5-square {
+  margin: 20px;
+  width: 60px;
+  height: 60px;
+  background: red;
+}
+.ex-5-square{
+  transition: 3s;
+}
+.ex-5-square:hover{
+  width: 150px;
+  height: 150px;
+}
+.ex-5-square:active{
+  width: 20px;
+  height: 20px;
+}
