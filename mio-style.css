@@ -91,4 +91,14 @@
 }
 .ex-8-img:hover{
   filter: sepia(0.8) hue-rotate(90deg);
+  border-radius: 40%;
+}
+
+.ex-9-img{
+  transition: 2s;
+}
+.ex-9-img:hover{
+  filter:sepia(0.8) hue-rotate(90deg) ;
+  border-radius: 30%;
+  transform: scale(2.5);
 }
