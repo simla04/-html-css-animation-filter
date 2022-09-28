@@ -85,3 +85,10 @@
 .ex-7-img:hover{
   filter: brightness(0.25) invert(1);
 }
+
+.ex-8-img{
+  transition: 4s;
+}
+.ex-8-img:hover{
+  filter: sepia(0.8) hue-rotate(90deg);
+}
